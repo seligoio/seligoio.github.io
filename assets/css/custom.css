@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 111;
+}
+header .navbar {
+  padding: 15px 0;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  border: 2px solid #5bca7a;
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 8px 30px;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+  background: #5bca7a;
+  color: #fff;
+  border-color: #5bca7a;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.main-banner {
+  background: url(../img/banner-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  position: relative;
+}
+.main-banner .main-banner-content {
+  text-align: center;
+}
+.main-banner .main-banner-content h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.main-banner .main-banner-content h1 span {
+  color: #5bca7a;
+}
+.main-banner .main-banner-content p {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.main-banner .main-banner-content a {
+  font-size: 12px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.main-banner .main-banner-content a:hover {
+  background: #5bca7a;
+  border-color: #5bca7a;
+}
+
+.about-section {
+  padding: 50px 0 90px;
+}
+.about-section .about-text {
+  background: #fff;
+  padding: 50px 50px;
+  box-shadow: 2px 2px 8px #949494;
+  margin-top: 60px;
+}
+.about-section .about-text h4 {
+  color: #5bca7a;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.about-section .about-text h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.about-section .about-text p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.about-section .about-text a {
+  font-size: 12px;
+  text-decoration: none;
+  background: #5bca7a;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 25px;
+}
+.about-section .about-img {
+  position: relative;
+}
+.about-section .about-img img {
+  position: absolute;
+  left: -80px;
+  z-index: -1;
+}
+.about-section .part2 {
+  margin-top: 120px;
+}
+.about-section .part2 .about-img img {
+  left: auto;
+  right: -80px;
+}
+
+.contact-section {
+  background: #fafafa;
+  padding: 50px 0;
+  margin-top: 30px;
+}
+.contact-section .contact-forms {
+  text-align: center;
+}
+.contact-section .contact-forms h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contact-section .contact-forms p {
+  color: #777777;
+  font-size: 14px;
+}
+.contact-section .contact-forms form .form-group .form-control {
+  height: 43px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+.contact-section .contact-forms form .form-group .submit-btn {
+  background: #5bca7a;
+  color: #fff;
+  width: 100%;
+  height: 43px;
+  border: 1px solid #5bca7a;
+  font-size: 14px;
+  border-radius: 25px;
+}
+.contact-section .contact-forms form .form-group .submit-btn:focus {
+  outline: 0 !important;
+}
+
+.contact-confirm p {
+  color: #5bca7a;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 20px 0;
+  background: #fff;
+}
+footer .footer-content p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 16px 0 0 0;
+}
+footer .footer-content p span {
+  color: #5bca7a;
+}
+footer .footer-content ul {
+  padding-left: 0;
+  text-align: right;
+  margin-bottom: 0;
+}
+footer .footer-content ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+footer .footer-content ul li a {
+  background: #c3c7ca;
+  color: #fff;
+  float: left;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 5px 11px;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer-content ul li a:hover {
+  background: #5bca7a;
+}
+
+@media (min-width: 1400px) and (max-width: 1450px) {
+  .about-section .about-text {
+    margin-top: 25px;
+  }
+  .about-section .about-img img {
+    width: 630px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1370px) {
+  .about-section .about-text {
+    margin-top: 25px;
+  }
+  .about-section .about-img img {
+    width: 630px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .about-section .about-text {
+    margin-top: 25px;
+  }
+  .about-section .about-img img {
+    width: 630px;
+  }
+}
+@media (max-width: 1199px) {
+  .main-banner {
+    padding: 160px 0;
+  }
+
+  .about-section .about-text {
+    padding: 30px 40px;
+    margin-top: 30px;
+  }
+  .about-section .about-text h1 {
+    font-size: 30px;
+  }
+  .about-section .about-text p {
+    line-height: 20px;
+  }
+  .about-section .about-img img {
+    width: 520px;
+  }
+}
+@media (max-width: 991px) {
+  .main-banner .main-banner-content h1 {
+    font-size: 30px;
+  }
+
+  .about-section .about-text {
+    padding: 20px 20px;
+    margin-top: 13px;
+  }
+  .about-section .about-text h1 {
+    font-size: 25px;
+  }
+  .about-section .about-text p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .about-section .about-text a {
+    font-size: 14px;
+    padding: 5px 22px;
+  }
+  .about-section .about-img img {
+    width: 430px;
+  }
+
+  .contact-section .contact-forms h1 {
+    font-size: 30px;
+  }
+  .contact-section .contact-forms p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 0 20px;
+  }
+  header .navbar .navbar-nav .nav-item .nav-link {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+
+  .about-section {
+    padding: 50px 0;
+  }
+  .about-section .about-img img {
+    position: static;
+    width: 100%;
+  }
+  .about-section .part2 {
+    margin-top: 20px;
+  }
+  .about-section .part2 .col-md-6:first-child {
+    order: 2;
+  }
+
+  .contact-section .contact-forms h1 {
+    font-size: 26px;
+  }
+  .contact-section .contact-forms p {
+    font-size: 11px;
+  }
+  .contact-section .contact-forms .btns .submit-btn {
+    width: 100%;
+    max-width: 140px;
+  }
+  .contact-section .contact-forms .btns .submit-btn:focus {
+    outline: 0 !important;
+  }
+
+  footer .footer-content {
+    text-align: center;
+  }
+  footer .footer-content p {
+    margin-top: 0;
+  }
+  footer .footer-content ul {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
